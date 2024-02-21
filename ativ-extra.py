@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Generate angulos from 0 to 180 degrees (in radians)
+#Gerar ângulo aleatório de 0 até 180 graus (0rad até PIrad) -> 1250 é o número de pontos
 angulos = np.linspace(0, np.pi, 1250)
 
 # Calculate x and y coordinates for the circle
